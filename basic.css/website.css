@@ -1,0 +1,82 @@
+body
+{
+	font-family:impact;
+}
+h1
+{
+	text-align: center;
+}
+p
+{
+	text-align: center;
+	font-size: 20px;
+	font-weight:200;
+}
+#bold
+{
+	font-weight: bold;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li 
+{
+    display: inline;
+}
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-right: 1px solid #bbb;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #DC143C;
+}
+#armor
+{
+	color: red;
+}
+#float
+{
+	float:right;
+}
+.center
+{
+	text-align: center;
+}
+img.center
+{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+/* This is the css file is only used for the home page as it has no background as the logo I used for the title has a white background */
+
+	
